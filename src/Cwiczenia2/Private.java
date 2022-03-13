@@ -18,4 +18,11 @@ public class Private {
     public void sumowanie() {
         System.out.println(this.a+this.b);
     }
+    public int rekurencja(int n){
+        if(n>1){
+            return n*rekurencja(n-1);
+        }else{
+            return 1;
+        }
+    }
 }

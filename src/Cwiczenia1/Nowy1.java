@@ -1,3 +1,5 @@
+package Cwiczenia1;
+
 import java.util.Scanner;
 
 public class Nowy1 {
